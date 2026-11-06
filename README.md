@@ -31,4 +31,4 @@ Nécessite **macOS 14 ou plus récent** sur un **Mac à puce Apple**.
 2. Au premier lancement, macOS le bloque car l'app n'est pas encore notarisée. Ouvrez **Réglages Système › Confidentialité et sécurité**, puis choisissez **Ouvrir quand même**.
 3. Ensuite, MacGuard se met à jour tout seul, en un clic.
 
-Fait par Noham, en France.
+Fait en France.

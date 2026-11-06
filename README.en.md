@@ -33,4 +33,4 @@ Requires **macOS 14 or later** on an **Apple silicon Mac**.
 2. On first launch, macOS blocks it because the app is not notarized yet. Open **System Settings › Privacy & Security**, then choose **Open Anyway**.
 3. After that, MacGuard updates itself in one click.
 
-Made by Noham, in France.
+Made in France.
