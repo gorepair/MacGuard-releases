@@ -1,6 +1,6 @@
 <p align="center"><img src="assets/icon.png" width="96" height="96" alt="MacGuard"></p>
 <h1 align="center">MacGuard</h1>
-<p align="center">Clean, uninstall, protect and monitor your Mac from a single app.</p>
+<p align="center">Clean, uninstall, protect and monitor your Mac from a single app.<br><strong>Completely free, with no ads and no trackers.</strong></p>
 <p align="center">
   <a href="https://github.com/gorepair/MacGuard-releases/releases/latest/download/MacGuard.dmg"><strong>Download for Mac</strong></a>
   &nbsp;|&nbsp; <a href="https://gorepair.github.io/MacGuard-releases/en/">Website</a>

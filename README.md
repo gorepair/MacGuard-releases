@@ -1,6 +1,6 @@
 <p align="center"><img src="assets/icon.png" width="96" height="96" alt="MacGuard"></p>
 <h1 align="center">MacGuard</h1>
-<p align="center">Nettoyez, désinstallez, protégez et surveillez votre Mac depuis une seule app.</p>
+<p align="center">Nettoyez, désinstallez, protégez et surveillez votre Mac depuis une seule app.<br><strong>Totalement gratuit, sans publicité ni traqueurs.</strong></p>
 <p align="center">
   <a href="https://github.com/gorepair/MacGuard-releases/releases/latest/download/MacGuard.dmg"><strong>Télécharger pour Mac</strong></a>
   &nbsp;|&nbsp; <a href="https://gorepair.github.io/MacGuard-releases/">Site</a>

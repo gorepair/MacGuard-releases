@@ -3,98 +3,136 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>MacGuard, pour nettoyer et surveiller votre Mac</title>
-<meta name="description" content="App macOS native pour nettoyer, désinstaller, protéger et surveiller votre Mac. Téléchargement direct.">
-<meta property="og:title" content="MacGuard, pour nettoyer et surveiller votre Mac">
-<meta property="og:description" content="App macOS native pour nettoyer, désinstaller, protéger et surveiller votre Mac. Téléchargement direct.">
+<title>MacGuard, le nettoyeur gratuit pour Mac, sans publicité ni traqueurs</title>
+<meta name="description" content="Nettoyez, désinstallez, protégez et surveillez votre Mac. App macOS native, totalement gratuite, sans publicité ni traqueurs.">
+<meta property="og:title" content="MacGuard, le nettoyeur gratuit pour Mac, sans publicité ni traqueurs">
+<meta property="og:description" content="Nettoyez, désinstallez, protégez et surveillez votre Mac. App macOS native, totalement gratuite, sans publicité ni traqueurs.">
 <meta property="og:image" content="https://gorepair.github.io/MacGuard-releases/assets/dashboard.jpg">
 <link rel="alternate" hreflang="fr" href="https://gorepair.github.io/MacGuard-releases/">
 <link rel="alternate" hreflang="en" href="https://gorepair.github.io/MacGuard-releases/en/">
 <link rel="icon" href="assets/icon.png">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;500&family=Onest:wght@400&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="site.css">
 </head>
 <body>
-<header class="container">
+<header class="top"><div class="container">
   <nav class="nav">
     <a class="wordmark" href="./"><img src="assets/icon.png" width="32" height="32" alt="">MacGuard</a>
+    <div class="nav__anchors"><a href="#nettoyage">nettoyage</a><a href="#protection">protection</a><a href="#applications">applications</a><a href="#fichiers">fichiers</a><a href="#performances">performances</a><a href="#questions">questions</a></div>
     <div class="nav__links">
       <a href="en/" hreflang="en" lang="en">english</a>
-      <a href="https://github.com/gorepair/MacGuard-releases/releases">voir les versions</a>
+      <a class="btn btn--primary btn--small" href="https://github.com/gorepair/MacGuard-releases/releases/latest/download/MacGuard.dmg">télécharger</a>
     </div>
   </nav>
-</header>
+</div></header>
 <main>
   <section class="container hero">
     <h1>votre mac, léger et sous contrôle</h1>
     <div class="hero__side">
       <p class="lead">Nettoyez, désinstallez, protégez et surveillez votre Mac depuis une seule app.</p>
-      <div class="actions"><a class="btn btn--primary" href="https://github.com/gorepair/MacGuard-releases/releases/latest/download/MacGuard.dmg">télécharger pour mac</a></div>
-      <p class="needs">Pour macOS 14 ou plus récent, sur Mac à puce Apple.</p>
+      <div class="actions"><a class="btn btn--primary" href="https://github.com/gorepair/MacGuard-releases/releases/latest/download/MacGuard.dmg">télécharger gratuitement</a></div>
+      <p class="needs"><strong>Totalement gratuit, sans publicité ni traqueurs.</strong> Pour macOS 14 ou plus récent, sur Mac à puce Apple.</p>
     </div>
   </section>
-  <div class="container hero__screen">
-    <img class="screen" src="assets/dashboard.jpg" width="1800" height="1180" fetchpriority="high" alt="Tableau de bord de MacGuard : stockage, mémoire, processeur, batterie et un conseil sur la mémoire saturée">
-  </div>
-  <section class="section" style="padding-top:0">
-    <div class="container">
-      <div class="head"><h2>trois gestes au quotidien</h2><p class="lead">Vous voyez tout avant de décider. Rien n’est coché au hasard.</p></div>
-      <input class="tabs-input" type="radio" name="move" id="t1" checked>
-<input class="tabs-input" type="radio" name="move" id="t2">
-<input class="tabs-input" type="radio" name="move" id="t3">
-      <div class="tabs"><label class="tab" for="t1">nettoyer</label>
-<label class="tab" for="t2">désinstaller</label>
-<label class="tab" for="t3">protéger</label></div>
-      <div class="panels"><div class="panel p1"><p>Caches, journaux, fichiers de développement et restes d’apps, triés par catégorie, avec la taille de chaque élément.</p><img class="screen" src="assets/junk.jpg" width="1800" height="1180" loading="lazy" alt="Écran Fichiers inutiles : catégories à gauche, éléments et tailles à droite"></div>
-<div class="panel p2"><p>Chaque app avec sa taille, sa dernière ouverture et les fichiers qu’elle laisse derrière elle.</p><img class="screen" src="assets/uninstaller.jpg" width="1800" height="1180" loading="lazy" alt="Écran Désinstallateur : liste des apps et fichiers liés à l’app choisie"></div>
-<div class="panel p3"><p>Vos apps et vos téléchargements comparés aux signatures de malwares d’Apple, et les protections de macOS vérifiées.</p><img class="screen" src="assets/malware.jpg" width="1800" height="1180" loading="lazy" alt="Écran Malwares : éléments à examiner et état des protections de macOS"></div></div>
-    </div>
-  </section>
-  <section class="section bar">
-    <div class="container">
-      <div class="head"><h2>tout voir, sans ouvrir l’app</h2><p class="lead">Températures, disque, processeur, mémoire, réseau et charge, en direct dans la barre des menus.</p></div>
-      <img class="bar__shot" src="assets/menubar.png" width="728" height="60" loading="lazy" alt="Barre des menus avec les éléments de MacGuard : températures, espace libre, processeur, mémoire et réseau">
-    </div>
-  </section>
-  <section class="section">
-    <div class="container">
-      <div class="head"><h2>et tout le reste</h2></div>
-      <table class="uses"><tbody><tr><th scope="row">analyse intelligente</th><td>Tous les nettoyages et des recommandations, en un clic.</td></tr>
-<tr><th scope="row">doublons</th><td>Comparaison du contenu, avec toujours une copie conservée.</td></tr>
-<tr><th scope="row">gros fichiers</th><td>Les plus lourds, filtrés par type et par ancienneté.</td></tr>
-<tr><th scope="row">images similaires</th><td>Les séries presque identiques. Vous choisissez quoi garder.</td></tr>
-<tr><th scope="row">explorateur d’espace</th><td>Une carte interactive de ce qui remplit le disque.</td></tr>
-<tr><th scope="row">nettoyage cloud</th><td>Retire la copie locale des fichiers iCloud, sans les perdre.</td></tr>
-<tr><th scope="row">confidentialité</th><td>Traces de navigation et autorisations données aux apps.</td></tr>
-<tr><th scope="row">maintenance</th><td>Cache DNS, mémoire, Spotlight et vérification du disque.</td></tr></tbody></table>
-    </div>
-  </section>
-  <section class="section record">
-    <div class="container record__grid">
-      <h2>rien ne part sans votre accord</h2>
-      <ul><li>Une confirmation avant chaque suppression.</li>
-<li>La Corbeille par défaut, et l’annulation du dernier nettoyage.</li>
-<li>Vos exclusions restent intouchables.</li></ul>
-    </div>
-  </section>
-  <section class="section">
-    <div class="container install">
-      <div>
-        <h2>installer macguard</h2>
-        <ol><li>Ouvrez le DMG et glissez MacGuard dans <strong>Applications</strong>.</li>
-<li>Au premier lancement, macOS le bloque car l’app n’est pas encore notarisée. Ouvrez <strong>Réglages Système › Confidentialité et sécurité</strong>, puis choisissez <strong>Ouvrir quand même</strong>.</li>
-<li>Ensuite, MacGuard se met à jour tout seul, en un clic.</li></ol>
-        <div class="actions"><a class="btn btn--primary" href="https://github.com/gorepair/MacGuard-releases/releases/latest/download/MacGuard.dmg">télécharger</a></div>
-      </div>
-      <figure style="margin:0"><img class="screen" src="assets/settings.jpg" width="1800" height="1310" loading="lazy" alt="Réglages de MacGuard, rubrique Barre de statut"></figure>
-    </div>
-  </section>
+  <div class="container"><img class="screen" src="assets/dashboard.jpg" width="1800" height="1180" fetchpriority="high" alt="Tableau de bord de MacGuard : stockage, mémoire, processeur, batterie et un conseil sur la mémoire saturée"></div>
+  <div class="container" style="padding-block:var(--space-2xl) 0"><div class="promise"><div><span class="figure figure--accent">0 €</span><p>Totalement gratuit, sans abonnement.</p></div><div><span class="figure">0</span><p>Publicité dans l’app.</p></div><div><span class="figure">0</span><p>Traqueur ou outil de mesure.</p></div><div><span class="figure">16</span><p>Modules réunis dans une seule app.</p></div></div></div>
+  
+<section class="chapter" id="analyse"><div class="container"><h2>un mac propre, en un clic</h2><p class="lead">Commencez par l’analyse intelligente : elle passe votre Mac en revue et vous propose ce qui peut partir. Vous gardez la main sur chaque élément.</p>
+<article class="module">
+<div><h3>analyse intelligente</h3><p>Tous les contrôles en une seule analyse, avec une confirmation avant toute suppression.</p><ul class="points"><li>Caches, journaux, mises à jour iOS et fichiers développeur</li><li>Anciennes sauvegardes d’iPhone et d’iPad repérées</li><li>Applications que vous n’ouvrez plus signalées</li><li>Recherche rapide de malwares et état des protections de macOS</li></ul></div>
+<img class="screen" src="assets/smart.jpg" width="1600" height="1049" loading="lazy" alt="Écran d’accueil de l’analyse intelligente">
+</article>
+</div></section>
+
+<section class="chapter" id="nettoyage"><div class="container"><h2>récupérez votre espace</h2><p class="lead">Dix catégories de fichiers inutiles, et vos fichiers iCloud libérés sans être perdus.</p>
+<article class="module module--flip">
+<div><h3>fichiers inutiles</h3><p>Chaque catégorie affiche ses éléments et leur taille. Ce qui est délicat n’est jamais coché d’office.</p><ul class="points"><li>Les fichiers partent à la Corbeille par défaut</li><li>Le dernier nettoyage s’annule d’un clic</li><li>Analyse programmée, avec une notification au-delà de 500 Mo</li></ul><ul class="pills"><li>caches des apps</li><li>journaux et rapports</li><li>restes d’apps supprimées</li><li>sauvegardes iPhone et iPad</li><li>mises à jour iOS</li><li>fichiers développeur</li><li>installateurs téléchargés</li><li>pièces jointes Mail</li><li>pièces jointes Messages</li><li>corbeille</li></ul></div>
+<img class="screen" src="assets/junk.jpg" width="1600" height="1049" loading="lazy" alt="Écran Fichiers inutiles : catégories à gauche, éléments et tailles à droite">
+</article>
+<article class="module">
+<div><h3>nettoyage cloud</h3><p>Les fichiers iCloud Drive, Dropbox, Google Drive ou OneDrive téléchargés occupent aussi votre disque.</p><ul class="points"><li>Repère les copies locales, Bureau et Documents iCloud compris</li><li>Libère la copie locale : le fichier reste en ligne et revient à l’ouverture</li><li>Sélectionne d’un clic ce que vous n’avez pas ouvert depuis 3 mois</li><li>Ou supprime du cloud pour gagner de la place dans votre abonnement</li></ul></div>
+<img class="screen" src="assets/cloud.jpg" width="1600" height="1049" loading="lazy" alt="Écran d’accueil du nettoyage cloud">
+</article>
+</div></section>
+
+<section class="chapter" id="protection"><div class="container"><h2>gardez votre mac sain</h2><p class="lead">Une recherche de malwares fondée sur les signatures d’Apple, et le contrôle de vos traces.</p>
+<article class="module module--flip">
+<div><h3>malwares</h3><p>Vos apps et vos téléchargements sont comparés aux signatures XProtect d’Apple, mises à jour par macOS.</p><ul class="points"><li>Trois analyses au choix : rapide, normale ou approfondie</li><li>Agents de lancement suspects ou orphelins, adwares connus</li><li>Extensions système orphelines, extensions noyau, profils de configuration</li><li>Extensions et moteur de recherche détournés dans les navigateurs</li><li>État de SIP, Gatekeeper, coupe-feu, FileVault, XProtect et mises à jour</li></ul></div>
+<img class="screen" src="assets/malware.jpg" width="1600" height="1049" loading="lazy" alt="Écran Malwares : éléments à examiner et état des protections de macOS">
+</article>
+<article class="module">
+<div><h3>confidentialité</h3><p>Effacez historiques et cookies, et reprenez la main sur ce que vos apps ont le droit de faire.</p><ul class="points"><li>Safari, Chrome, Edge, Brave, Firefox, Arc et Vivaldi</li><li>Caméra, micro, écran, accessibilité : autorisations révocables en un clic</li><li>Identifiants enregistrés et favoris jamais touchés</li></ul></div>
+<img class="screen" src="assets/privacy.jpg" width="1600" height="1049" loading="lazy" alt="Écran d’accueil de la confidentialité">
+</article>
+</div></section>
+
+<section class="chapter" id="applications"><div class="container"><h2>vos apps, bien rangées</h2><p class="lead">Désinstallez pour de bon, gardez tout à jour et décidez de ce qui démarre avec votre Mac.</p>
+<article class="module module--flip">
+<div><h3>désinstallateur</h3><p>Toutes vos apps avec leur taille et leur dernière ouverture, et les fichiers qu’elles laissent derrière elles.</p><ul class="points"><li>Filtres : toutes, inutilisées, App Store, autres</li><li>Préférences, caches, conteneurs et agents retirés avec l’app</li><li>Réinitialisation : remet une app à zéro sans la supprimer</li><li>Glissez une app sur l’icône de MacGuard pour la désinstaller</li><li>Une app jetée à la Corbeille ? MacGuard propose d’en retirer les restes</li></ul></div>
+<img class="screen" src="assets/uninstaller.jpg" width="1600" height="1049" loading="lazy" alt="Écran Désinstallateur : liste des apps et fichiers liés à l’app choisie">
+</article>
+<article class="module">
+<div><h3>mises à jour</h3><p>Toutes vos versions vérifiées au même endroit, pour ne pas manquer un correctif de sécurité.</p><ul class="points"><li>Apps du Mac App Store</li><li>Apps indépendantes qui se mettent à jour via Sparkle</li><li>Démarrage : agents et démons à activer, désactiver ou supprimer</li><li>Éléments d’ouverture de session réunis au même endroit</li></ul></div>
+<img class="screen" src="assets/updater.jpg" width="1600" height="1049" loading="lazy" alt="Écran d’accueil des mises à jour">
+</article>
+</div></section>
+
+<section class="chapter" id="fichiers"><div class="container"><h2>retrouvez ce qui prend de la place</h2><p class="lead">Quatre façons de faire le tri dans vos fichiers. Vous décidez toujours de ce qui part.</p>
+<div class="tiles">
+<article class="tile"><img class="screen" src="assets/large.jpg" width="1600" height="1049" loading="lazy" alt="Écran d’accueil des gros fichiers"><h3>gros fichiers</h3><p>Vidéos, archives, images disque et documents, triés par taille. Repérez ceux que vous n’avez pas ouverts depuis un an, avec Coup d’œil pour vérifier.</p></article>
+<article class="tile"><img class="screen" src="assets/duplicates.jpg" width="1600" height="1049" loading="lazy" alt="Écran d’accueil des doublons"><h3>doublons</h3><p>Comparaison du contenu par empreinte SHA-256, même renommés. Sélection automatique qui garde la copie la plus ancienne, avec vignettes pour vérifier.</p></article>
+<article class="tile"><img class="screen" src="assets/similar.jpg" width="1600" height="1049" loading="lazy" alt="Écran d’accueil des images similaires"><h3>images similaires</h3><p>Rafales et photos quasi identiques, même redimensionnées. Rien n’est coché d’office, et la bibliothèque Photos n’est jamais modifiée.</p></article>
+<article class="tile"><img class="screen" src="assets/space.jpg" width="1600" height="1049" loading="lazy" alt="Écran d’accueil de l’explorateur d’espace"><h3>explorateur d’espace</h3><p>Une carte interactive où chaque dossier a la taille qu’il occupe. Dossier personnel, disque entier ou autre emplacement.</p></article>
+</div></div></section>
+
+<section class="chapter" id="performances"><div class="container"><h2>gardez un mac vif</h2><p class="lead">L’entretien de macOS, de petits outils pratiques, et votre Mac sous les yeux en permanence.</p>
+<article class="module module--flip">
+<div><h3>barre de statut</h3><p>Six éléments séparés dans la barre des menus. Chacun ouvre un panneau détaillé, sans ouvrir l’app.</p><ul class="points"><li>Processeur : graphique, cœurs, charge et apps gourmandes</li><li>Mémoire : pression, répartition, swap et apps les plus lourdes</li><li>Températures et ventilateurs</li><li>Réseau : débits en direct, adresse IP, test de débit</li><li>Disque : espace libre de chaque volume, lecture et écriture</li><li>Batterie : puissance de charge en watts et temps restant, sur secteur</li></ul></div>
+<img class="screen" src="assets/statusbar.jpg" width="1600" height="1049" loading="lazy" alt="Réglages de la barre de statut avec un aperçu de chaque élément">
+</article>
+<article class="module">
+<div><h3>maintenance</h3><p>Les gestes d’entretien de macOS, réunis et expliqués. Une sélection recommandée est prête.</p><ul class="points"><li>Conseils quand la mémoire, le processeur, le stockage ou la batterie saturent</li></ul><ul class="pills"><li>cache DNS</li><li>mémoire vive</li><li>launch services</li><li>cache coup d’œil</li><li>réindexer spotlight</li><li>instantanés time machine</li><li>vérifier le disque</li><li>relancer dock et finder</li></ul></div>
+<img class="screen" src="assets/maintenance.jpg" width="1600" height="1049" loading="lazy" alt="Écran Maintenance : tâches à sélectionner">
+</article>
+<article class="module module--flip">
+<div><h3>outils</h3><p>Les petits gestes du quotidien, à portée de clic.</p><ul class="points"><li>Outils développeur : simulateurs Xcode, Homebrew et Docker</li></ul><ul class="pills"><li>vider les corbeilles</li><li>éjecter les disques</li><li>garder le mac éveillé</li><li>fichiers cachés</li><li>vider le presse-papiers</li><li>relancer la barre des menus</li><li>relancer le finder</li><li>vitesse du disque</li><li>débit internet</li><li>ip publique</li></ul></div>
+<img class="screen" src="assets/tools.jpg" width="1600" height="1049" loading="lazy" alt="Écran Outils : grille de petits outils">
+</article>
+</div></section>
+
+<section class="section record"><div class="container record__grid"><h2>rien ne part sans votre accord</h2><ul>
+<li>Une confirmation avant chaque suppression.</li><li>La Corbeille par défaut, et l’annulation du dernier nettoyage.</li><li>Vos exclusions restent intouchables.</li><li>Les sauvegardes d’iPhone ne sont jamais présélectionnées.</li></ul></div></section>
+
+<section class="section"><div class="container"><div class="head"><h2>les petits plus</h2></div><div class="comforts">
+<div><h3>une seule autorisation</h3><p>Accordez-la une fois dans les réglages : MacGuard ne redemande plus votre mot de passe. Facultatif et désactivable.</p></div>
+<div><h3>mises à jour en un clic</h3><p>MacGuard vérifie chaque jour s’il existe une nouvelle version, et l’installe en un clic.</p></div>
+<div><h3>exclusions</h3><p>Les dossiers et fichiers de votre choix ne sont jamais analysés ni supprimés.</p></div>
+<div><h3>discret</h3><p>Fermez la fenêtre : MacGuard reste dans la barre des menus, sans encombrer le Dock.</p></div>
+<div><h3>raccourcis</h3><p>Lancez une analyse depuis l’app Raccourcis avec un simple lien.</p></div>
+<div><h3>ouverture au démarrage</h3><p>Une option pour retrouver votre barre de statut à chaque allumage.</p></div>
+</div></div></section>
+
+<section class="section" id="questions"><div class="container"><div class="head"><h2>vos questions</h2></div><div class="faq">
+<details open><summary>MacGuard est-il vraiment gratuit ?</summary><p>Oui, totalement gratuit : pas d’essai limité, pas d’abonnement, pas de publicité et aucun traqueur.</p></details>
+<details><summary>L’app se connecte-t-elle à internet ?</summary><p>Uniquement pour rendre service : vérifier les mises à jour de MacGuard sur GitHub, chercher les versions de vos apps sur l’App Store et chez leurs éditeurs, et, à votre demande, tester le débit ou afficher votre adresse IP publique. Aucun outil de mesure d’audience n’y est intégré.</p></details>
+<details><summary>Est-ce sans risque pour mes fichiers ?</summary><p>Rien n’est supprimé sans votre confirmation. Par défaut, les fichiers passent par la Corbeille et le dernier nettoyage peut être annulé. Deux exceptions, effacées définitivement : le contenu de la Corbeille, si vous la cochez, et les traces de navigation. Vérifiez la liste avant de valider.</p></details>
+<details><summary>Pourquoi macOS bloque-t-il la première ouverture ?</summary><p>MacGuard n’est pas encore notarisé par Apple. Ouvrez Réglages Système › Confidentialité et sécurité, puis choisissez Ouvrir quand même. Il suffit de le faire une fois.</p></details>
+<details><summary>Sur quels Mac fonctionne-t-il ?</summary><p>Sur les Mac à puce Apple (M1 et suivants) avec macOS 14 ou plus récent. Les Mac Intel ne sont pas pris en charge.</p></details>
+<details><summary>Remplace-t-il un antivirus ?</summary><p>Il complète les protections de macOS : il compare vos fichiers aux signatures publiées par Apple et repère les adwares et les éléments suspects. Ce n’est pas une protection en temps réel.</p></details>
+<details><summary>Comment le désinstaller ?</summary><p>Si vous avez activé l’option sans mot de passe, désactivez-la d’abord dans les réglages. Glissez ensuite MacGuard d’Applications vers la Corbeille.</p></details>
+</div></div></section>
+
+<section class="section bar" id="installer"><div class="container install"><div><h2>installer macguard</h2><ol>
+<li>Ouvrez le DMG et glissez MacGuard dans <strong>Applications</strong>.</li>
+<li>Au premier lancement, ouvrez <strong>Réglages Système › Confidentialité et sécurité</strong>, puis choisissez <strong>Ouvrir quand même</strong>.</li>
+<li>Ensuite, MacGuard se met à jour en un clic.</li></ol>
+<div class="actions"><a class="btn btn--primary" href="https://github.com/gorepair/MacGuard-releases/releases/latest/download/MacGuard.dmg">télécharger gratuitement</a></div><p class="needs" style="margin-top:var(--space-sm)">macOS 14 ou plus récent, Mac à puce Apple.</p></div>
+<figure style="margin:0"><img class="screen" src="assets/settings.jpg" width="1800" height="1310" loading="lazy" alt="Réglages de MacGuard, rubrique Barre de statut"></figure></div></section>
+
 </main>
 <footer class="close">
   <div class="container close__grid">
     <p class="close__sign">Fait par Noham, en France. Novembre 2026.</p>
-    <nav><a href="https://github.com/gorepair/MacGuard-releases/releases">GitHub</a><a href="en/" lang="en">english</a></nav>
+    <nav><a href="https://github.com/gorepair/MacGuard-releases/releases">versions</a><a href="en/" lang="en">english</a></nav>
   </div>
 </footer>
 </body>
