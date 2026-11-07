@@ -9,7 +9,7 @@
 
 ![MacGuard dashboard](assets/dashboard.jpg)
 
-The app itself is in French for now.
+Available in English and French.
 
 ## What MacGuard does
 
