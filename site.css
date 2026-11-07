@@ -102,6 +102,11 @@ a:focus-visible, input:focus-visible + label { outline: 2px solid var(--color-fo
 .promise > div:first-child { border-left: 0; padding-left: 0; }
 .figure { display: block; font: 300 var(--text-display)/0.95 var(--font-display); font-variant-numeric: tabular-nums; }
 .figure--accent { color: var(--color-accent-bright); }
+.figure s { display: block; font-size: 0.45em; color: var(--color-ink-2); }
+.price { margin: 0; display: flex; flex-wrap: wrap; align-items: baseline; gap: var(--space-2xs) var(--space-xs); color: var(--color-ink-2); }
+.price strong { font: 500 var(--text-title)/1 var(--font-display); color: var(--color-ink); }
+.price span { font-size: var(--text-sm); }
+.actions:has(.price) { align-items: center; }
 .promise p { margin: var(--space-xs) 0 0; color: var(--color-ink-2); }
 
 /* Module blocks */
